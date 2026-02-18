@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>رمضان مبارك</title>
+    <style>
+        body {
+            background-color: #ffe0b3;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #d2691e;
+            font-size: 60px;
+        }
+        h2 {
+            color: #d2691e;
+            font-size:  thirty-sixpx;
+            margin-top: 20px;
+        }
+        img {
+            margin-top: 30px;
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>كل عام وأنتم بخير</h1>
+    <h2>رمضان مبارك</h2>
+    <img src="f:\WhatsApp Image 2026-02-18 at 6.13.24 PM.jpeg" alt="احتفال">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            confetti({
+                particleCount: 500,
+                spread: 300,
+                origin: { y: 0.5 }
+            });
+        });
+    </script>
+</body>
+</html>
